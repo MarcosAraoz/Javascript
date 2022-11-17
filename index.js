@@ -1,5 +1,5 @@
 
-/*let producto = parseInt(prompt(
+let producto = parseInt(prompt(
       "Selecciona el producto que deseas comprar: 1.Zapatillas - 2.Campera - 3.Remera"
     )
   )
@@ -47,9 +47,10 @@
       seguirComprando = false
     }
   }
-  alert("El total de tu compra es " + totalCompra)*/
-  
-  class Producto{
+  alert("El total de tu compra es " + totalCompra)
+
+
+ /* class Producto{
     constructor(id,nombre,precio,stock){
       this.id = id
       this.nombre = nombre
@@ -79,5 +80,5 @@
       <a href="#" class="btn btn-primary">Comprar</a>
     </div>
   </div>` 
-})
+})*/
   
